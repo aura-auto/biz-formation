@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" role="img" aria-label="Diagram of how an S-corp splits owner earnings into salary and distributions">
+  <rect width="640" height="300" fill="#ffffff"/>
+  <text x="320" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">How an S-corp treats owner earnings</text>
+  <!-- source -->
+  <rect x="240" y="55" width="160" height="44" rx="8" fill="#1565c0"/>
+  <text x="320" y="82" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">Owner earnings</text>
+  <line x1="300" y1="99" x2="190" y2="140" stroke="#999" stroke-width="2"/>
+  <line x1="340" y1="99" x2="450" y2="140" stroke="#999" stroke-width="2"/>
+  <!-- salary -->
+  <rect x="60" y="140" width="240" height="70" rx="8" fill="#fff3e0" stroke="#e65100"/>
+  <text x="180" y="165" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#bf360c">Reasonable salary</text>
+  <text x="180" y="185" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Subject to payroll taxes</text>
+  <text x="180" y="201" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">(Social Security + Medicare)</text>
+  <!-- distributions -->
+  <rect x="340" y="140" width="240" height="70" rx="8" fill="#e8f5e9" stroke="#2e7d32"/>
+  <text x="460" y="165" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1b5e20">Distributions</text>
+  <text x="460" y="185" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Not subject to self-employment tax</text>
+  <text x="460" y="201" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">but IRS can reclassify as wages</text>
+  <!-- caveat -->
+  <rect x="120" y="235" width="400" height="44" rx="8" fill="#fce4ec" stroke="#c62828"/>
+  <text x="320" y="255" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#b71c1c">IRS requirement: salary must be reasonable</text>
+  <text x="320" y="271" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">for the services actually performed</text>
+</svg>

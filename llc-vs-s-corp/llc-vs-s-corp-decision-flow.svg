@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="380" viewBox="0 0 640 380" role="img" aria-label="Decision flow for choosing between an LLC and an S-corp election">
+  <rect width="640" height="380" fill="#ffffff"/>
+  <text x="320" y="30" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1a1a1a">LLC vs S-corp: how the decision flows</text>
+  <!-- start -->
+  <rect x="220" y="52" width="200" height="40" rx="20" fill="#1565c0"/>
+  <text x="320" y="77" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">Form an LLC (state filing)</text>
+  <line x1="320" y1="92" x2="320" y2="120" stroke="#999" stroke-width="2" marker-end="url(#a)"/>
+  <!-- question -->
+  <rect x="160" y="120" width="320" height="52" rx="8" fill="#e3f2fd" stroke="#1565c0"/>
+  <text x="320" y="142" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#0d47a1">Is profit high enough to justify payroll</text>
+  <text x="320" y="160" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#0d47a1">administration and a salary?</text>
+  <line x1="200" y1="172" x2="120" y2="210" stroke="#999" stroke-width="2"/>
+  <line x1="440" y1="172" x2="520" y2="210" stroke="#999" stroke-width="2"/>
+  <!-- no branch -->
+  <rect x="20" y="210" width="200" height="70" rx="8" fill="#e8f5e9" stroke="#2e7d32"/>
+  <text x="120" y="234" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#1b5e20">No: keep plain LLC</text>
+  <text x="120" y="252" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Single-member: report on personal return</text>
+  <text x="120" y="268" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Multi-member: partnership return</text>
+  <!-- yes branch -->
+  <rect x="420" y="210" width="200" height="70" rx="8" fill="#fff3e0" stroke="#e65100"/>
+  <text x="520" y="234" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#bf360c">Yes: consider S-corp</text>
+  <text x="520" y="252" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Check eligibility: 100 owners max,</text>
+  <text x="520" y="268" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">no non-resident alien shareholders</text>
+  <!-- eligibility fail -->
+  <line x1="520" y1="280" x2="520" y2="310" stroke="#999" stroke-width="2"/>
+  <rect x="420" y="310" width="200" height="52" rx="8" fill="#fce4ec" stroke="#c62828"/>
+  <text x="520" y="330" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#b71c1c">Fails eligibility: stay LLC</text>
+  <text x="520" y="348" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">(or fix ownership and re-evaluate)</text>
+  <!-- eligible pass -->
+  <line x1="120" y1="280" x2="120" y2="310" stroke="#999" stroke-width="2"/>
+  <rect x="20" y="310" width="200" height="52" rx="8" fill="#e8f5e9" stroke="#2e7d32"/>
+  <text x="120" y="330" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1b5e20">Eligible: file Form 2553</text>
+  <text x="120" y="348" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Pay reasonable salary + payroll taxes</text>
+</svg>

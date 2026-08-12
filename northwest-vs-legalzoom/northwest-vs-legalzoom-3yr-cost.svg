@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-label="Bar chart comparing three-year total cost of LLC formation with registered agent service: Northwest Registered Agent $289, LegalZoom $747">
+  <rect width="640" height="360" fill="#ffffff"/>
+  <text x="320" y="32" font-family="Arial, sans-serif" font-size="19" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Three-year total cost of LLC formation with registered agent</text>
+  <line x1="80" y1="300" x2="600" y2="300" stroke="#999" stroke-width="1.5"/>
+  <text x="80" y="322" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#333">$0</text>
+  <text x="220" y="322" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#333">$289</text>
+  <text x="480" y="322" font-family="Arial, sans-serif" font-size="13" text-anchor="middle" fill="#333">$747</text>
+  <rect x="110" y="213" width="220" height="87" fill="#2e7d32" rx="4"/>
+  <text x="220" y="203" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#2e7d32">$289</text>
+  <text x="220" y="340" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">Northwest Registered Agent</text>
+  <rect x="370" y="76" width="220" height="224" fill="#c62828" rx="4"/>
+  <text x="480" y="66" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#c62828">$747</text>
+  <text x="480" y="340" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a1a1a">LegalZoom</text>
+  <text x="480" y="135" font-family="Arial, sans-serif" font-size="13" font-weight="bold" text-anchor="middle" fill="#c62828">$458 higher</text>
+</svg>
