@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 450" role="img" aria-label="Bar chart of LLC formation filing fees by state: California $70, Delaware $90, Wyoming $100, Florida $125, Washington $180, New York $200, Texas $300">
+  <title>LLC formation filing fees by state</title>
+  <desc>State LLC formation filing fees from official secretary of state fee schedules, checked August 2026: California $70, Delaware $90, Wyoming $100, Florida $125, Washington $180, New York $200, Texas $300.</desc>
+  <style>
+    text { font-family: system-ui, Arial, sans-serif; fill: #1a202c; }
+    .title { font-size: 19px; font-weight: 700; }
+    .bar { fill: #1f6feb; }
+    .gridline { stroke: #d1d5db; stroke-width: 1; }
+    .axislabel { font-size: 12px; fill: #6b7280; }
+    .statelabel { font-size: 14px; font-weight: 600; }
+    .valuelabel { font-size: 14px; font-weight: 700; }
+    .note { font-size: 11px; fill: #6b7280; }
+  </style>
+  <text x="20" y="38" class="title">LLC formation filing fee by state</text>
+  <text x="20" y="58" class="note">Official secretary of state fee schedules, checked August 2026. Domestic LLC formation document only.</text>
+
+  <!-- plot area: x0=180, width=520 (value/300 * 520), bars at y 84..400 -->
+  <line x1="180" y1="84" x2="180" y2="402" stroke="#9ca3af" stroke-width="2"/>
+  <line x1="180" y1="402" x2="700" y2="402" stroke="#9ca3af" stroke-width="2"/>
+
+  <!-- gridlines and axis labels: 0, 100, 200, 300 -->
+  <line x1="180" y1="84" x2="180" y2="402" class="gridline"/>
+  <text x="180" y="420" class="axislabel" text-anchor="middle">$0</text>
+  <line x1="353.3" y1="84" x2="353.3" y2="402" class="gridline"/>
+  <text x="353.3" y="420" class="axislabel" text-anchor="middle">$100</text>
+  <line x1="526.7" y1="84" x2="526.7" y2="402" class="gridline"/>
+  <text x="526.7" y="420" class="axislabel" text-anchor="middle">$200</text>
+  <line x1="700" y1="84" x2="700" y2="402" class="gridline"/>
+  <text x="700" y="420" class="axislabel" text-anchor="middle">$300</text>
+
+  <!-- California $70 -->
+  <text x="12" y="108" class="statelabel">California</text>
+  <rect x="180" y="92" width="121.3" height="30" class="bar" rx="3"/>
+  <text x="308" y="113" class="valuelabel">$70</text>
+
+  <!-- Delaware $90 -->
+  <text x="12" y="154" class="statelabel">Delaware</text>
+  <rect x="180" y="138" width="156" height="30" class="bar" rx="3"/>
+  <text x="343" y="159" class="valuelabel">$90</text>
+
+  <!-- Wyoming $100 -->
+  <text x="12" y="200" class="statelabel">Wyoming</text>
+  <rect x="180" y="184" width="173.3" height="30" class="bar" rx="3"/>
+  <text x="360" y="205" class="valuelabel">$100</text>
+
+  <!-- Florida $125 -->
+  <text x="12" y="246" class="statelabel">Florida</text>
+  <rect x="180" y="230" width="216.7" height="30" class="bar" rx="3"/>
+  <text x="403" y="251" class="valuelabel">$125</text>
+
+  <!-- Washington $180 -->
+  <text x="12" y="292" class="statelabel">Washington</text>
+  <rect x="180" y="276" width="312" height="30" class="bar" rx="3"/>
+  <text x="499" y="297" class="valuelabel">$180</text>
+
+  <!-- New York $200 -->
+  <text x="12" y="338" class="statelabel">New York</text>
+  <rect x="180" y="322" width="346.7" height="30" class="bar" rx="3"/>
+  <text x="533" y="343" class="valuelabel">$200</text>
+
+  <!-- Texas $300 -->
+  <text x="12" y="384" class="statelabel">Texas</text>
+  <rect x="180" y="368" width="520" height="30" class="bar" rx="3"/>
+  <text x="707" y="389" class="valuelabel">$300</text>
+
+  <text x="180" y="444" class="note">Includes only the initial formation filing fee. Annual reports, franchise taxes, and registered agent fees are separate.</text>
+</svg>
