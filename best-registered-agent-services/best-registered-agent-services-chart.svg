@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" role="img" aria-labelledby="title desc">
+  <title id="title">Registered agent service annual prices by provider</title>
+  <desc>Bar chart comparing first-year and renewal prices for six registered agent services: Northwest $125, Harbor Compliance $99 then $149, Bizee free first year with formation then $149, ZenBusiness $99 then $199, LegalZoom $249, doola $297.</desc>
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; }
+    .label { font-size: 12px; fill: #222; }
+    .big { font-size: 14px; font-weight: bold; fill: #111; }
+    .axis { font-size: 11px; fill: #555; }
+    .legend { font-size: 12px; fill: #222; }
+  </style>
+  <rect width="760" height="460" fill="#fafafa" rx="8"/>
+  <text x="380" y="30" text-anchor="middle" class="big" fill="#0b3d91">Registered agent service: advertised annual price</text>
+
+  <!-- y axis -->
+  <line x1="90" y1="70" x2="90" y2="370" stroke="#ccc" stroke-width="1"/>
+  <line x1="90" y1="370" x2="720" y2="370" stroke="#999" stroke-width="2"/>
+
+  <!-- scale: $300 max -> 300px. $100 = 100px -->
+  <!-- y for value v: y = 370 - v*1.0 -->
+
+  <!-- Northwest $125 -->
+  <rect x="115" y="245" width="70" height="125" fill="#0b3d91"/>
+  <text x="150" y="360" text-anchor="middle" class="label">$125</text>
+
+  <!-- Harbor $99 -->
+  <rect x="205" y="271" width="70" height="99" fill="#2e7d32"/>
+  <text x="240" y="360" text-anchor="middle" class="label">$99</text>
+
+  <!-- Bizee $0 first (formation) -->
+  <rect x="295" y="370" width="70" height="0" fill="#e0a800"/>
+  <text x="330" y="360" text-anchor="middle" class="label">Free w/</text>
+
+  <!-- ZenBusiness $99 -->
+  <rect x="385" y="271" width="70" height="99" fill="#7b1fa2"/>
+  <text x="420" y="360" text-anchor="middle" class="label">$99</text>
+
+  <!-- LegalZoom $249 -->
+  <rect x="475" y="121" width="70" height="249" fill="#c62828"/>
+  <text x="510" y="360" text-anchor="middle" class="label">$249</text>
+
+  <!-- doola $297 -->
+  <rect x="565" y="73" width="70" height="297" fill="#ca4a2f"/>
+  <text x="600" y="360" text-anchor="middle" class="label">$297</text>
+
+  <!-- x labels -->
+  <text x="150" y="388" text-anchor="middle" class="axis">Northwest</text>
+  <text x="240" y="388" text-anchor="middle" class="axis">Harbor</text>
+  <text x="330" y="388" text-anchor="middle" class="axis">Bizee</text>
+  <text x="420" y="388" text-anchor="middle" class="axis">ZenBusiness</text>
+  <text x="510" y="388" text-anchor="middle" class="axis">LegalZoom</text>
+  <text x="600" y="388" text-anchor="middle" class="axis">doola</text>
+
+  <!-- y axis scale -->
+  <text x="82" y="374" text-anchor="end" class="axis">$0</text>
+  <text x="82" y="274" text-anchor="end" class="axis">$100</text>
+  <text x="82" y="174" text-anchor="end" class="axis">$200</text>
+  <text x="82" y="74" text-anchor="end" class="axis">$300</text>
+  <line x1="90" y1="274" x2="96" y2="274" stroke="#ccc" stroke-width="1"/>
+  <line x1="90" y1="174" x2="96" y2="174" stroke="#ccc" stroke-width="1"/>
+  <line x1="90" y1="74" x2="96" y2="74" stroke="#ccc" stroke-width="1"/>
+
+  <!-- renewal notes -->
+  <text x="380" y="412" text-anchor="middle" class="label" fill="#555">Renewal prices: Northwest $125, Harbor $149, Bizee $149, ZenBusiness $199,</text>
+  <text x="380" y="428" text-anchor="middle" class="label" fill="#555">LegalZoom $249, doola $297. Bizee's first year is free with LLC formation.</text>
+  <rect x="150" y="440" width="12" height="12" fill="#0b3d91"/>
+  <rect x="240" y="440" width="12" height="12" fill="#2e7d32"/>
+  <text x="270" y="450" class="legend">First-year price</text>
+</svg>

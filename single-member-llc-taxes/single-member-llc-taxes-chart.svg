@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="460" viewBox="0 0 700 460" role="img" aria-label="Federal tax obligations for a single-member LLC owner">
+  <rect width="700" height="460" fill="#fafafa"/>
+  <text x="350" y="34" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Federal tax obligations for a single-member LLC owner</text>
+  <text x="350" y="56" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#555" text-anchor="middle">Filing as a disregarded entity on your personal return</text>
+
+  <!-- Self-employment tax bars -->
+  <text x="60" y="110" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#1a1a1a">Self-employment tax: 15.3% of net earnings</text>
+
+  <rect x="60" y="130" width="238" height="34" rx="4" fill="#2a7de1"/>
+  <text x="190" y="152" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#fff" text-anchor="middle">Social Security: 12.4%</text>
+
+  <rect x="60" y="172" width="56" height="34" rx="4" fill="#4aa3f0"/>
+  <text x="190" y="194" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1a1a1a" text-anchor="middle">Medicare: 2.9%</text>
+
+  <text x="60" y="232" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#333">Applies when net self-employment earnings are $400 or more.</text>
+
+  <!-- Additional Medicare line -->
+  <text x="60" y="282" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#1a1a1a">Additional Medicare: +0.9% above income thresholds</text>
+  <text x="60" y="304" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#333">Single filers over $200,000; married filing jointly over $250,000.</text>
+
+  <!-- Payment cadence -->
+  <text x="60" y="354" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#1a1a1a">Pay as you go: 4 estimated tax payments per year</text>
+  <rect x="60" y="370" width="130" height="30" rx="4" fill="#e8eef7" stroke="#2a7de1" stroke-width="1"/>
+  <text x="125" y="389" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1a1a1a" text-anchor="middle">Apr 15</text>
+  <rect x="205" y="370" width="130" height="30" rx="4" fill="#e8eef7" stroke="#2a7de1" stroke-width="1"/>
+  <text x="270" y="389" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1a1a1a" text-anchor="middle">Jun 15</text>
+  <rect x="350" y="370" width="130" height="30" rx="4" fill="#e8eef7" stroke="#2a7de1" stroke-width="1"/>
+  <text x="415" y="389" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1a1a1a" text-anchor="middle">Sep 15</text>
+  <rect x="495" y="370" width="145" height="30" rx="4" fill="#e8eef7" stroke="#2a7de1" stroke-width="1"/>
+  <text x="567" y="389" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1a1a1a" text-anchor="middle">Jan 15 (next year)</text>
+
+  <text x="60" y="432" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#777">Rates from IRS.gov: self-employment tax and additional Medicare tax pages.</text>
+</svg>
