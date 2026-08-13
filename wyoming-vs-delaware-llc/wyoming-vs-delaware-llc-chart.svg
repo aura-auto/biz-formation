@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Wyoming vs Delaware LLC: filing fee and annual cost comparison</title>
+  <desc id="desc">Bar chart. Wyoming LLC formation filing fee is $100, Delaware is $110. Wyoming minimum annual report tax is $60, Delaware annual LLC tax is $300.</desc>
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; }
+    .label { font-size: 14px; fill: #1f2937; }
+    .val { font-size: 13px; font-weight: bold; fill: #111827; }
+    .group { font-size: 15px; font-weight: bold; fill: #111827; }
+  </style>
+
+  <text x="320" y="30" text-anchor="middle" font-size="17" font-weight="bold" fill="#111827">Wyoming vs Delaware LLC rates</text>
+  <text x="320" y="50" text-anchor="middle" font-size="12" fill="#6b7280">Source: Wyoming SOS fee schedule and Delaware Division of Corporations fee schedule, 2026</text>
+
+  <!-- Panel 1: Filing fee -->
+  <text x="70" y="95" class="group">Formation filing fee</text>
+
+  <rect x="70" y="110" width="120" height="110" rx="4" fill="#2563eb" opacity="0.9"/>
+  <text x="130" y="165" text-anchor="middle" class="label" fill="#ffffff">Wyoming</text>
+  <text x="130" y="188" text-anchor="middle" class="val" fill="#ffffff">$100</text>
+  <text x="130" y="235" text-anchor="middle" class="label">LLC Articles</text>
+  <text x="130" y="253" text-anchor="middle" class="label">of Organization</text>
+
+  <rect x="230" y="98" width="120" height="122" rx="4" fill="#7c3aed" opacity="0.9"/>
+  <text x="290" y="160" text-anchor="middle" class="label" fill="#ffffff">Delaware</text>
+  <text x="290" y="183" text-anchor="middle" class="val" fill="#ffffff">$110</text>
+  <text x="290" y="235" text-anchor="middle" class="label">Certificate of</text>
+  <text x="290" y="253" text-anchor="middle" class="label">Formation</text>
+
+  <!-- Panel 2: Annual cost -->
+  <text x="70" y="300" class="group">Minimum annual state cost</text>
+
+  <rect x="70" y="315" width="120" height="40" rx="4" fill="#059669" opacity="0.9"/>
+  <text x="130" y="343" text-anchor="middle" class="label" fill="#ffffff">Wyoming</text>
+
+  <rect x="230" y="290" width="120" height="65" rx="4" fill="#dc2626" opacity="0.9"/>
+  <text x="290" y="330" text-anchor="middle" class="label" fill="#ffffff">Delaware</text>
+
+  <text x="130" y="385" text-anchor="middle" class="val">$60</text>
+  <text x="130" y="403" text-anchor="middle" class="label">Annual report</text>
+  <text x="130" y="421" text-anchor="middle" class="label">(min. license tax)</text>
+
+  <text x="290" y="385" text-anchor="middle" class="val">$300</text>
+  <text x="290" y="403" text-anchor="middle" class="label">Annual tax,</text>
+  <text x="290" y="421" text-anchor="middle" class="label">no report filed</text>
+</svg>
