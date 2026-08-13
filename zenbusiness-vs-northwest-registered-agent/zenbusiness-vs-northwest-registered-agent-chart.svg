@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="380" viewBox="0 0 640 380" role="img" aria-labelledby="title desc">
+  <title id="title">Three-year service fee comparison, Northwest vs ZenBusiness</title>
+  <desc id="desc">Bar chart showing three-year service fees before state fees: Northwest Registered Agent at $289 and ZenBusiness Starter at $398.</desc>
+  <style>
+    .bar-nw { fill: #2c6e49; }
+    .bar-zb { fill: #d97706; }
+    .label { font: 13px system-ui, sans-serif; fill: #1f2937; }
+    .tick { font: 12px system-ui, sans-serif; fill: #4b5563; }
+    .axis { stroke: #9ca3af; stroke-width: 1.5; }
+    .title { font: 15px system-ui, sans-serif; fill: #111827; font-weight: bold; }
+  </style>
+  <text class="title" x="320" y="28" text-anchor="middle">Three-Year Service Fees ($, before state fees)</text>
+
+  <!-- Y axis baseline at x=80, top of plot y=60, bottom y=320. Scale: $80 = 60px, so $400 = 300px. -->
+  <line class="axis" x1="80" y1="320" x2="590" y2="320"/>
+  <line class="axis" x1="80" y1="60" x2="80" y2="320"/>
+
+  <text class="tick" x="70" y="324" text-anchor="end">0</text>
+  <text class="tick" x="70" y="204" text-anchor="end">$200</text>
+  <text class="tick" x="70" y="99" text-anchor="end">$400</text>
+  <line class="axis" x1="80" y1="204" x2="590" y2="204" stroke-dasharray="4 4"/>
+  <line class="axis" x1="80" y1="99" x2="590" y2="99" stroke-dasharray="4 4"/>
+
+  <!-- Northwest: $289 -> height 216.75px, top at 103.25 -->
+  <rect class="bar-nw" x="150" y="103" width="120" height="217"/>
+  <text class="label" x="210" y="92" text-anchor="middle" font-weight="bold">$289</text>
+  <text class="label" x="210" y="340" text-anchor="middle">Northwest</text>
+
+  <!-- ZenBusiness: $398 -> height 298.5px, top at 21.5 -->
+  <rect class="bar-zb" x="400" y="21" width="120" height="299"/>
+  <text class="label" x="460" y="14" text-anchor="middle" font-weight="bold">$398</text>
+  <text class="label" x="460" y="340" text-anchor="middle">ZenBusiness Starter</text>
+
+  <text class="tick" x="320" y="368" text-anchor="middle" font-size="11">Northwest: $39 + $125 + $125. ZenBusiness: $0 + $199 + $199 (Starter plan + registered agent).</text>
+</svg>

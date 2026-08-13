@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="340" viewBox="0 0 660 340" role="img" aria-label="Bar chart of LLC expedited filing fees by state">
+  <rect width="660" height="340" fill="#ffffff"/>
+  <text x="20" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1a1a1a">Expedited LLC filing fee by state (US dollars)</text>
+
+  <!-- Scale: 1 dollar = 0.88 px. Bars from x=180. Max $500 = 440px. -->
+  <g font-family="Arial, sans-serif" font-size="13" fill="#1a1a1a">
+    <!-- New York: $25, 24 hr -->
+    <text x="20" y="72">New York (24 hr)</text>
+    <rect x="180" y="60" width="22" height="22" fill="#3b82f6"/>
+    <text x="210" y="76">$25</text>
+    <!-- Washington: $100, ~3 work days -->
+    <text x="20" y="122">Washington (~3 work days)</text>
+    <rect x="180" y="110" width="88" height="22" fill="#8b5cf6"/>
+    <text x="276" y="126">$100</text>
+    <!-- California: $350, 24 hr -->
+    <text x="20" y="172">California (24 hr)</text>
+    <rect x="180" y="160" width="308" height="22" fill="#f59e0b"/>
+    <text x="496" y="176">$350</text>
+    <!-- Delaware: $500, 2 hr -->
+    <text x="20" y="222">Delaware (2 hr)</text>
+    <rect x="180" y="210" width="440" height="22" fill="#ef4444"/>
+    <text x="628" y="226">$500</text>
+  </g>
+
+  <!-- axis -->
+  <line x1="180" y1="240" x2="620" y2="240" stroke="#cccccc"/>
+  <text x="20" y="225" font-family="Arial, sans-serif" font-size="12" fill="#666666">$0</text>
+  <text x="400" y="225" font-family="Arial, sans-serif" font-size="12" fill="#666666">$250</text>
+  <text x="614" y="225" font-family="Arial, sans-serif" font-size="12" fill="#666666">$500</text>
+
+  <g font-family="Arial, sans-serif" font-size="11" fill="#666666">
+    <text x="20" y="275">Expedited fee is on top of the base filing fee, and each bar buys a different turnaround window.</text>
+    <text x="20" y="295">Delaware also offers a $50 next-day tier and a $1,000 one-hour tier. California adds a $750 same-day tier.</text>
+    <text x="20" y="315">New York offers $75 same-day and $150 two-hour tiers; Washington adds a $150 same-day fee.</text>
+    <text x="20" y="335">Source: official secretary of state schedules, checked August 2026.</text>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="430" viewBox="0 0 700 430" role="img" aria-label="Self-employment tax for a freelancer: 15.3 percent total on 92.35 percent of net earnings">
+  <rect width="700" height="430" fill="#fafafa"/>
+  <text x="350" y="34" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold" fill="#1a1a1a" text-anchor="middle">Self-employment tax for a freelancer</text>
+  <text x="350" y="56" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#555" text-anchor="middle">How the 15.3% rate breaks down, per the IRS</text>
+
+  <!-- Total rate -->
+  <text x="60" y="110" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#1a1a1a">Combined rate: 15.3%</text>
+  <rect x="60" y="126" width="238" height="52" rx="4" fill="#2a7de1"/>
+  <text x="179" y="146" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">15.3%</text>
+  <text x="179" y="166" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#fff" text-anchor="middle">of net self-employment earnings</text>
+
+  <!-- Component bars -->
+  <text x="60" y="220" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#1a1a1a">Two parts</text>
+  <rect x="60" y="235" width="180" height="34" rx="4" fill="#2a7de1"/>
+  <text x="150" y="258" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#fff" text-anchor="middle">Social Security: 12.4%</text>
+  <rect x="60" y="275" width="43" height="34" rx="4" fill="#4aa3f0"/>
+  <text x="150" y="298" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#1a1a1a" text-anchor="middle">Medicare: 2.9%</text>
+
+  <!-- 92.35% note -->
+  <text x="60" y="352" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="bold" fill="#1a1a1a">Applied to 92.35% of net earnings</text>
+  <text x="60" y="374" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#333">You pay SE tax when net self-employment earnings are $400 or more.</text>
+  <text x="60" y="394" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#333">Social Security portion caps at $168,600 in combined earnings (2024);</text>
+  <text x="60" y="412" font-family="Arial, Helvetica, sans-serif" font-size="12.5" fill="#333">an extra 0.9% Medicare tax applies above $200,000 for single filers.</text>
+</svg>
