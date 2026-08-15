@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="320" viewBox="0 0 700 320" role="img" aria-labelledby="title desc">
+  <title id="title">Starting price of LegalZoom alternatives (plus state fees)</title>
+  <desc id="desc">doola $297/yr, ZenBusiness $0, Northwest approx $39, Bizee $0, LegalZoom $0 on Basic</desc>
+  <style>
+    .bar { fill: #2563eb; }
+    .doola { fill: #16a34a; }
+    .label { font-family: Arial, sans-serif; font-size: 13px; fill: #111; }
+    .val { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #111; }
+    .axis { font-family: Arial, sans-serif; font-size: 12px; fill: #555; }
+  </style>
+
+  <text x="350" y="24" text-anchor="middle" class="val" style="font-size:17px;">Starting service price (state filing fees added on top)</text>
+
+  <!-- doola -->
+  <rect x="40" y="120" width="560" height="30" class="doola"/>
+  <text x="40" y="112" class="label">doola (Starter)</text>
+  <text x="612" y="141" class="val">$297/yr</text>
+
+  <!-- ZenBusiness -->
+  <rect x="40" y="175" width="40" height="30" class="bar"/>
+  <text x="40" y="167" class="label">ZenBusiness (Starter)</text>
+  <text x="612" y="196" class="val">$0 + state fee</text>
+
+  <!-- Northwest -->
+  <rect x="40" y="230" width="80" height="30" class="bar"/>
+  <text x="40" y="222" class="label">Northwest (approx)</text>
+  <text x="612" y="252" class="val">~$39 + state fee</text>
+
+  <!-- Bizee -->
+  <rect x="40" y="285" width="40" height="30" class="bar"/>
+  <text x="40" y="277" class="label">Bizee (Starter)</text>
+  <text x="612" y="306" class="val">$0 + state fee</text>
+
+  <!-- LegalZoom reference -->
+  <rect x="40" y="60" width="40" height="30" class="bar" fill="#94a3b8"/>
+  <text x="40" y="52" class="label">LegalZoom (Basic, subject)</text>
+  <text x="612" y="81" class="val">$0 + state fee</text>
+
+  <text x="40" y="318" class="axis">Bar width is proportional to price per year. Figures from vendor pricing pages, 2026-08-14. Northwest is approximate.</text>
+</svg>
