@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">First-year service fees for Bizee alternatives</title>
+  <desc id="desc">Bar chart comparing the first-year formation service fee for doola, Bizee, ZenBusiness, Northwest, and LegalZoom, based on official published pricing as of August 2026.</desc>
+  <rect width="640" height="420" fill="#fafafa"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#222">First-year service fee (before state filing fees), 2026</text>
+  <text x="320" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#666">Each bar shows the published formation/service fee. Prices from official vendor pages, Aug 17 2026.</text>
+
+  <!-- Y axis labels -->
+  <g font-family="Arial, sans-serif" font-size="11" fill="#555">
+    <text x="45" y="370" text-anchor="end">$300</text>
+    <text x="45" y="295" text-anchor="end">$225</text>
+    <text x="45" y="220" text-anchor="end">$150</text>
+    <text x="45" y="145" text-anchor="end">$75</text>
+    <text x="45" y="80" text-anchor="end">$0</text>
+  </g>
+
+  <!-- Horizontal gridlines -->
+  <g stroke="#ddd" stroke-width="1">
+    <line x1="52" y1="80" x2="600" y2="80"/>
+    <line x1="52" y1="145" x2="600" y2="145"/>
+    <line x1="52" y1="220" x2="600" y2="220"/>
+    <line x1="52" y1="295" x2="600" y2="295"/>
+    <line x1="52" y1="370" x2="600" y2="370"/>
+  </g>
+
+  <!-- Scale: $1 = 0.98px. Baseline y=370. -->
+  <!-- doola $297 -> 291px -->
+  <rect x="75" y="79" width="85" height="291" rx="4" fill="#2f6fed"/>
+  <text x="117" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2f6fed" font-weight="bold">$297</text>
+  <text x="117" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#222" font-weight="bold">doola</text>
+  <text x="117" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#888">Starter/yr</text>
+
+  <!-- Bizee $0 -> 0px -->
+  <rect x="195" y="370" width="85" height="4" rx="2" fill="#8a8a8a"/>
+  <text x="237" y="362" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#8a8a8a" font-weight="bold">$0</text>
+  <text x="237" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#222" font-weight="bold">Bizee</text>
+  <text x="237" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#888">Silver</text>
+
+  <!-- ZenBusiness $0 -> 0px -->
+  <rect x="315" y="370" width="85" height="4" rx="2" fill="#7ac943"/>
+  <text x="357" y="362" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7ac943" font-weight="bold">$0</text>
+  <text x="357" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#222" font-weight="bold">ZenBusiness</text>
+  <text x="357" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#888">Starter</text>
+
+  <!-- Northwest $39 -> 38px -->
+  <rect x="435" y="332" width="85" height="38" rx="4" fill="#e8851b"/>
+  <text x="477" y="324" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#e8851b" font-weight="bold">$39</text>
+  <text x="477" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#222" font-weight="bold">Northwest</text>
+  <text x="477" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#888">+ state fee</text>
+
+  <!-- LegalZoom Basic $0 -> 0px -->
+  <rect x="555" y="370" width="85" height="4" rx="2" fill="#c0392b"/>
+  <text x="597" y="362" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#c0392b" font-weight="bold">$0*</text>
+  <text x="597" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#222" font-weight="bold">LegalZoom</text>
+  <text x="597" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#888">Basic</text>
+
+  <text x="320" y="56" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#999">*LegalZoom Basic is $0 service fee but registered agent ($249/yr) is a separate upsell. doola Starter includes registered agent.</text>
+</svg>
