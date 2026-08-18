@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" font-family="system-ui, -apple-system, sans-serif" font-size="13">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="720" height="520" fill="#f8fafc" rx="8"/>
+
+  <!-- Title -->
+  <text x="360" y="32" text-anchor="middle" font-size="16" font-weight="700" fill="#1e293b">How to Get an EIN Without an SSN</text>
+  <text x="360" y="52" text-anchor="middle" font-size="11" fill="#64748b">Two paths from the IRS. One shortcut.</text>
+
+  <!-- START node -->
+  <rect x="260" y="72" width="200" height="44" rx="22" fill="#3b82f6" filter="url(#shadow)"/>
+  <text x="360" y="99" text-anchor="middle" fill="#fff" font-weight="600">I need an EIN for my LLC</text>
+
+  <!-- Arrow down from start -->
+  <line x1="360" y1="116" x2="360" y2="140" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#94a3b8"/></marker></defs>
+
+  <!-- Decision diamond -->
+  <polygon points="360,140 460,180 360,220 260,180" fill="#fef3c7" stroke="#f59e0b" stroke-width="2" filter="url(#shadow)"/>
+  <text x="360" y="175" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">Have SSN or ITIN?</text>
+  <text x="360" y="191" text-anchor="middle" font-size="11" fill="#92400e">+ US principal address?</text>
+
+  <!-- YES branch (left) -->
+  <line x1="260" y1="180" x2="160" y2="180" stroke="#22c55e" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="210" y="172" text-anchor="middle" font-size="11" font-weight="600" fill="#16a34a">YES</text>
+
+  <!-- Left path box -->
+  <rect x="40" y="156" width="120" height="48" rx="6" fill="#dcfce7" stroke="#22c55e" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="100" y="176" text-anchor="middle" font-size="12" font-weight="600" fill="#166534">Apply Online</text>
+  <text x="100" y="193" text-anchor="middle" font-size="10" fill="#166534">IRS.gov (free)</text>
+
+  <!-- Arrow down from online -->
+  <line x1="100" y1="204" x2="100" y2="230" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Online result -->
+  <rect x="20" y="232" width="160" height="44" rx="6" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="100" y="252" text-anchor="middle" font-size="11" font-weight="500" fill="#166534">EIN issued immediately</text>
+  <text x="100" y="268" text-anchor="middle" font-size="10" fill="#16a34a">Same session, ~5 minutes</text>
+
+  <!-- NO branch (right) - non-US path -->
+  <line x1="460" y1="180" x2="520" y2="180" stroke="#ef4444" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="490" y="172" text-anchor="middle" font-size="11" font-weight="600" fill="#dc2626">NO</text>
+
+  <!-- Non-US label -->
+  <rect x="520" y="156" width="175" height="48" rx="6" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="608" y="176" text-anchor="middle" font-size="12" font-weight="600" fill="#991b1b">Non-US Address / No SSN</text>
+  <text x="608" y="193" text-anchor="middle" font-size="10" fill="#991b1b">Online tool blocked</text>
+
+  <!-- Arrow down from non-US -->
+  <line x1="608" y1="204" x2="608" y2="230" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Sub-decision: two options -->
+  <rect x="508" y="232" width="200" height="44" rx="6" fill="#fefce8" stroke="#eab308" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="608" y="252" text-anchor="middle" font-size="12" font-weight="600" fill="#854d0e">Two options to get your EIN:</text>
+
+  <!-- Arrow down splitting -->
+  <line x1="608" y1="276" x2="608" y2="300" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="538" y1="300" x2="678" y2="300" stroke="#94a3b8" stroke-width="2"/>
+
+  <!-- Option A: ITIN route (left sub-branch) -->
+  <line x1="538" y1="300" x2="538" y2="324" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="480" y="316" text-anchor="middle" font-size="10" font-weight="600" fill="#6b7280">A</text>
+
+  <rect x="430" y="326" width="216" height="100" rx="8" fill="#f5f3ff" stroke="#a78bfa" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="538" y="348" text-anchor="middle" font-size="12" font-weight="700" fill="#5b21b6">DIY: ITIN Route</text>
+  <text x="538" y="366" text-anchor="middle" font-size="10" fill="#5b21b6">1. Form W-7 + Form 1040-NR</text>
+  <text x="538" y="382" text-anchor="middle" font-size="10" fill="#5b21b6">2. Passport or supporting docs</text>
+  <text x="538" y="398" text-anchor="middle" font-size="10" fill="#5b21b6">3. Mail to IRS Austin, TX</text>
+  <text x="538" y="418" text-anchor="middle" font-size="10" fill="#5b21b6">7-11 weeks processing</text>
+
+  <!-- Option B: doola route (right sub-branch) -->
+  <line x1="678" y1="300" x2="678" y2="324" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="700" y="316" text-anchor="middle" font-size="10" font-weight="600" fill="#6b7280">B</text>
+
+  <!-- Arrow from ITIN to EIN -->
+  <line x1="538" y1="426" x2="538" y2="450" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <rect x="640" y="326" width="76" height="100" rx="8" fill="#fff7ed" stroke="#f97316" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="678" y="348" text-anchor="middle" font-size="12" font-weight="700" fill="#c2410c">doola</text>
+  <text x="678" y="366" text-anchor="middle" font-size="10" fill="#c2410c">$297/yr</text>
+  <text x="678" y="382" text-anchor="middle" font-size="10" fill="#c2410c">LLC + EIN +</text>
+  <text x="678" y="398" text-anchor="middle" font-size="10" fill="#c2410c">US address</text>
+  <text x="678" y="418" text-anchor="middle" font-size="10" fill="#c2410c">1-2 days</text>
+
+  <!-- Arrow from doola to EIN -->
+  <line x1="678" y1="426" x2="608" y2="450" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Shared EIN result box -->
+  <rect x="460" y="450" width="280" height="50" rx="8" fill="#3b82f6" filter="url(#shadow)"/>
+  <text x="600" y="473" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">EIN in hand</text>
+  <text x="600" y="491" text-anchor="middle" font-size="11" fill="#bfdbfe">Ready for bank account + tax filing</text>
+
+  <!-- Legend -->
+  <rect x="20" y="460" width="280" height="40" rx="6" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+  <circle cx="40" cy="480" r="5" fill="#22c55e"/>
+  <text x="52" y="484" font-size="10" fill="#475569">SSN holders: online, free, instant</text>
+  <circle cx="170" cy="480" r="5" fill="#a78bfa"/>
+  <text x="182" y="484" font-size="10" fill="#475569">Non-US: ITIN first, then EIN</text>
+
+  <text x="360" y="514" text-anchor="middle" font-size="9" fill="#94a3b8">Source: IRS.gov (2026). doola.com/pricing ($297/yr Starter).</text>
+</svg>

@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 480" font-family="system-ui, -apple-system, sans-serif" font-size="14">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.1"/>
+    </filter>
+    <linearGradient id="grad-red" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#dc2626;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#b91c1c;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="grad-blue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="grad-green" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#16a34a;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#15803d;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="720" height="480" fill="#f8fafc" rx="12"/>
+
+  <!-- Title -->
+  <text x="360" y="36" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">How to Fix IRS EIN Reference Number 109</text>
+
+  <!-- Start box -->
+  <rect x="230" y="56" width="260" height="48" rx="24" fill="url(#grad-red)" filter="url(#shadow)"/>
+  <text x="360" y="85" text-anchor="middle" font-size="14" font-weight="600" fill="#fff">You get Reference Number 109</text>
+
+  <!-- Arrow down -->
+  <line x1="360" y1="104" x2="360" y2="130" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Decision diamond -->
+  <polygon points="360,130 460,165 360,200 260,165" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="360" y="162" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">Wait 24 hours</text>
+  <text x="360" y="178" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">&amp; retry?</text>
+
+  <!-- Yes path - left -->
+  <line x1="260" y1="165" x2="170" y2="165" stroke="#94a3b8" stroke-width="2"/>
+  <text x="210" y="157" font-size="11" fill="#64748b">Yes</text>
+
+  <!-- Try again box -->
+  <rect x="40" y="140" width="130" height="50" rx="8" fill="url(#grad-blue)" filter="url(#shadow)"/>
+  <text x="105" y="162" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">Try again with</text>
+  <text x="105" y="178" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">different browser</text>
+
+  <!-- Arrow from try again down -->
+  <line x1="105" y1="190" x2="105" y2="220" stroke="#94a3b8" stroke-width="2"/>
+
+  <!-- Result boxes from try again -->
+  <rect x="25" y="220" width="160" height="50" rx="8" fill="#e0f2fe" stroke="#0ea5e9" stroke-width="1.5"/>
+  <text x="105" y="242" text-anchor="middle" font-size="12" font-weight="600" fill="#0c4a6e">Success!</text>
+  <text x="105" y="258" text-anchor="middle" font-size="11" fill="#0369a1">EIN issued</text>
+
+  <!-- Still error -->
+  <line x1="105" y1="270" x2="105" y2="295" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="25" y="295" width="160" height="50" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="105" y="317" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">Still Reference 109</text>
+  <text x="105" y="333" text-anchor="middle" font-size="11" fill="#a16207">Try off-peak hours</text>
+
+  <!-- No path - right -->
+  <line x1="360" y1="200" x2="360" y2="240" stroke="#94a3b8" stroke-width="2"/>
+  <text x="372" y="224" font-size="11" fill="#64748b">Still failing</text>
+
+  <!-- Escalation box -->
+  <rect x="230" y="240" width="260" height="50" rx="8" fill="url(#grad-green)" filter="url(#shadow)"/>
+  <text x="360" y="262" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">File Form SS-4 by fax or mail</text>
+  <text x="360" y="278" text-anchor="middle" font-size="12" font-weight="600" fill="#fff">Fax: 855-641-6935</text>
+
+  <!-- Arrow down from escalation -->
+  <line x1="360" y1="290" x2="360" y2="320" stroke="#94a3b8" stroke-width="2"/>
+
+  <!-- Timeline box -->
+  <rect x="180" y="320" width="360" height="70" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="360" y="345" text-anchor="middle" font-size="13" font-weight="600" fill="#334155">Processing Times (Form SS-4)</text>
+  <text x="275" y="370" text-anchor="middle" font-size="12" fill="#64748b">Fax: 2-4 weeks</text>
+  <text x="445" y="370" text-anchor="middle" font-size="12" fill="#64748b">Mail: 6-8 weeks</text>
+
+  <!-- Notes -->
+  <rect x="100" y="410" width="520" height="55" rx="8" fill="#fffbeb" stroke="#fbbf24" stroke-width="1"/>
+  <text x="360" y="432" text-anchor="middle" font-size="12" font-weight="600" fill="#92400e">Key Facts</text>
+  <text x="360" y="450" text-anchor="middle" font-size="11" fill="#a16207">Ref. 109 = IRS system issue, NOT your application. You can still apply online after waiting.</text>
+  <text x="360" y="458" text-anchor="middle" font-size="11" fill="#a16207">Off-peak: early morning or late evening ET.</text>
+
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>
