@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="720" height="420" fill="#ffffff"/>
+  <text x="360" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a2e">3-Year Total Cost for Non-US Founder LLC (Wyoming)</text>
+  <text x="360" y="52" text-anchor="middle" font-size="12" fill="#6b7280">Formation + Registered Agent + US Address. State fees excluded.</text>
+
+  <!-- Y axis labels -->
+  <text x="60" y="95" text-anchor="end" font-size="11" fill="#6b7280">$2,400</text>
+  <text x="60" y="165" text-anchor="end" font-size="11" fill="#6b7280">$1,800</text>
+  <text x="60" y="235" text-anchor="end" font-size="11" fill="#6b7280">$1,200</text>
+  <text x="60" y="305" text-anchor="end" font-size="11" fill="#6b7280">$600</text>
+  <text x="60" y="375" text-anchor="end" font-size="11" fill="#6b7280">$0</text>
+
+  <!-- Grid lines -->
+  <line x1="70" y1="85" x2="680" y2="85" stroke="#e5e7eb" stroke-width="1"/>
+  <line x1="70" y1="155" x2="680" y2="155" stroke="#e5e7eb" stroke-width="1"/>
+  <line x1="70" y1="225" x2="680" y2="225" stroke="#e5e7eb" stroke-width="1"/>
+  <line x1="70" y1="295" x2="680" y2="295" stroke="#e5e7eb" stroke-width="1"/>
+  <line x1="70" y1="365" x2="680" y2="365" stroke="#e5e7eb" stroke-width="1"/>
+
+  <!-- Firstbase bar: $399 + $648/yr x 2 = $1,695. Height: 1695/2400 * 280 = 197.5 -->
+  <rect x="95" y="167" width="80" height="198" rx="4" fill="#e74c3c" opacity="0.85"/>
+  <text x="135" y="160" text-anchor="middle" font-size="12" font-weight="bold" fill="#e74c3c">$1,695</text>
+  <text x="135" y="390" text-anchor="middle" font-size="11" fill="#374151" font-weight="600">Firstbase</text>
+  <text x="135" y="404" text-anchor="middle" font-size="9" fill="#9ca3af">~$648/yr ongoing</text>
+
+  <!-- doola bar: $297 x 3 = $891. Height: 891/2400 * 280 = 103.9 -->
+  <rect x="225" y="261" width="80" height="104" rx="4" fill="#3b82f6" opacity="0.85"/>
+  <text x="265" y="254" text-anchor="middle" font-size="12" font-weight="bold" fill="#3b82f6">$891</text>
+  <text x="265" y="390" text-anchor="middle" font-size="11" fill="#374151" font-weight="600">doola</text>
+  <text x="265" y="404" text-anchor="middle" font-size="9" fill="#9ca3af">$297/yr all-in</text>
+
+  <!-- LegalZoom bar: $0 + $199 x 2 = $398. Height: 398/2400 * 280 = 46.4 -->
+  <rect x="355" y="319" width="80" height="46" rx="4" fill="#10b981" opacity="0.85"/>
+  <text x="395" y="312" text-anchor="middle" font-size="12" font-weight="bold" fill="#10b981">$398</text>
+  <text x="395" y="390" text-anchor="middle" font-size="11" fill="#374151" font-weight="600">LegalZoom</text>
+  <text x="395" y="404" text-anchor="middle" font-size="9" fill="#9ca3af">US only*</text>
+
+  <!-- Northwest bar: $39 + $125 x 2 = $289. Height: 289/2400 * 280 = 33.7 -->
+  <rect x="485" y="331" width="80" height="34" rx="4" fill="#8b5cf6" opacity="0.85"/>
+  <text x="525" y="324" text-anchor="middle" font-size="12" font-weight="bold" fill="#8b5cf6">$289</text>
+  <text x="525" y="390" text-anchor="middle" font-size="11" fill="#374151" font-weight="600">Northwest</text>
+  <text x="525" y="404" text-anchor="middle" font-size="9" fill="#9ca3af">US only*</text>
+
+  <!-- ZenBusiness bar: $0 + $199 x 2 = $398. Height: same as LegalZoom -->
+  <rect x="615" y="319" width="80" height="46" rx="4" fill="#f59e0b" opacity="0.85"/>
+  <text x="655" y="312" text-anchor="middle" font-size="12" font-weight="bold" fill="#f59e0b">$398</text>
+  <text x="655" y="390" text-anchor="middle" font-size="11" fill="#374151" font-weight="600">ZenBusiness</text>
+  <text x="655" y="404" text-anchor="middle" font-size="9" fill="#9ca3af">US only*</text>
+
+  <!-- Footnote -->
+  <text x="70" y="15" font-size="10" fill="#9ca3af">* Not designed for non-US founders (no EIN-without-SSN, no US address bundling)</text>
+</svg>
