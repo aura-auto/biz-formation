@@ -1,52 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="system-ui, -apple-system, sans-serif">
-  <rect width="720" height="420" fill="#ffffff"/>
-  <text x="360" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a2e">3-Year Total Cost for Non-US Founder LLC (Wyoming)</text>
-  <text x="360" y="52" text-anchor="middle" font-size="12" fill="#6b7280">Formation + Registered Agent + US Address. State fees excluded.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="440" viewBox="0 0 640 440" role="img" aria-labelledby="title desc">
+  <title id="title">First-year formation cost for Firstbase alternatives</title>
+  <desc id="desc">Bar chart comparing the first-year formation and registered agent service fee for doola, Firstbase, Northwest, ZenBusiness, and LegalZoom, based on official published pricing as of August 2026.</desc>
+  <rect width="640" height="440" fill="#fafafa"/>
+  <text x="320" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#222">Year-one formation + registered agent fee, 2026</text>
+  <text x="320" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#666">State filing fees excluded. All prices from official vendor pages, Aug 19 2026.</text>
 
-  <!-- Y axis labels -->
-  <text x="60" y="95" text-anchor="end" font-size="11" fill="#6b7280">$2,400</text>
-  <text x="60" y="165" text-anchor="end" font-size="11" fill="#6b7280">$1,800</text>
-  <text x="60" y="235" text-anchor="end" font-size="11" fill="#6b7280">$1,200</text>
-  <text x="60" y="305" text-anchor="end" font-size="11" fill="#6b7280">$600</text>
-  <text x="60" y="375" text-anchor="end" font-size="11" fill="#6b7280">$0</text>
+  <!-- Y axis labels - scale: $0 at y=390, $700 at y=70. $1 = 0.457px -->
+  <g font-family="Arial, sans-serif" font-size="11" fill="#555">
+    <text x="55" y="394" text-anchor="end">$0</text>
+    <text x="55" y="329" text-anchor="end">$150</text>
+    <text x="55" y="264" text-anchor="end">$300</text>
+    <text x="55" y="199" text-anchor="end">$450</text>
+    <text x="55" y="134" text-anchor="end">$600</text>
+    <text x="55" y="74" text-anchor="end">$700</text>
+  </g>
 
-  <!-- Grid lines -->
-  <line x1="70" y1="85" x2="680" y2="85" stroke="#e5e7eb" stroke-width="1"/>
-  <line x1="70" y1="155" x2="680" y2="155" stroke="#e5e7eb" stroke-width="1"/>
-  <line x1="70" y1="225" x2="680" y2="225" stroke="#e5e7eb" stroke-width="1"/>
-  <line x1="70" y1="295" x2="680" y2="295" stroke="#e5e7eb" stroke-width="1"/>
-  <line x1="70" y1="365" x2="680" y2="365" stroke="#e5e7eb" stroke-width="1"/>
+  <!-- Horizontal gridlines -->
+  <g stroke="#ddd" stroke-width="1">
+    <line x1="62" y1="390" x2="600" y2="390"/>
+    <line x1="62" y1="322" x2="600" y2="322"/>
+    <line x1="62" y1="254" x2="600" y2="254"/>
+    <line x1="62" y1="186" x2="600" y2="186"/>
+    <line x1="62" y1="118" x2="600" y2="118"/>
+    <line x1="62" y1="70" x2="600" y2="70"/>
+  </g>
 
-  <!-- Firstbase bar: $399 + $648/yr x 2 = $1,695. Height: 1695/2400 * 280 = 197.5 -->
-  <rect x="95" y="167" width="80" height="198" rx="4" fill="#e74c3c" opacity="0.85"/>
-  <text x="135" y="160" text-anchor="middle" font-size="12" font-weight="bold" fill="#e74c3c">$1,695</text>
-  <text x="135" y="390" text-anchor="middle" font-size="11" fill="#374151" font-weight="600">Firstbase</text>
-  <text x="135" y="404" text-anchor="middle" font-size="9" fill="#9ca3af">~$648/yr ongoing</text>
+  <!-- Scale: $1 = 0.457px. Baseline y=390. $700 = 320px from baseline. -->
+  <!-- doola $297 -> 136px -->
+  <rect x="80" y="254" width="85" height="136" rx="4" fill="#2f6fed"/>
+  <text x="122" y="247" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2f6fed" font-weight="bold">$297</text>
+  <text x="122" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#222" font-weight="bold">doola</text>
+  <text x="122" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#888">Starter/yr</text>
 
-  <!-- doola bar: $297 x 3 = $891. Height: 891/2400 * 280 = 103.9 -->
-  <rect x="225" y="261" width="80" height="104" rx="4" fill="#3b82f6" opacity="0.85"/>
-  <text x="265" y="254" text-anchor="middle" font-size="12" font-weight="bold" fill="#3b82f6">$891</text>
-  <text x="265" y="390" text-anchor="middle" font-size="11" fill="#374151" font-weight="600">doola</text>
-  <text x="265" y="404" text-anchor="middle" font-size="9" fill="#9ca3af">$297/yr all-in</text>
+  <!-- Firstbase $698 -> 319px -->
+  <rect x="200" y="71" width="85" height="319" rx="4" fill="#c0392b"/>
+  <text x="242" y="64" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#c0392b" font-weight="bold">$698</text>
+  <text x="242" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#222" font-weight="bold">Firstbase</text>
+  <text x="242" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#888">Start+RA</text>
 
-  <!-- LegalZoom bar: $0 + $199 x 2 = $398. Height: 398/2400 * 280 = 46.4 -->
-  <rect x="355" y="319" width="80" height="46" rx="4" fill="#10b981" opacity="0.85"/>
-  <text x="395" y="312" text-anchor="middle" font-size="12" font-weight="bold" fill="#10b981">$398</text>
-  <text x="395" y="390" text-anchor="middle" font-size="11" fill="#374151" font-weight="600">LegalZoom</text>
-  <text x="395" y="404" text-anchor="middle" font-size="9" fill="#9ca3af">US only*</text>
+  <!-- Northwest $39 -> 18px -->
+  <rect x="320" y="372" width="85" height="18" rx="4" fill="#e8851b"/>
+  <text x="362" y="365" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#e8851b" font-weight="bold">$39</text>
+  <text x="362" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#222" font-weight="bold">Northwest</text>
+  <text x="362" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#888">+ state fee</text>
 
-  <!-- Northwest bar: $39 + $125 x 2 = $289. Height: 289/2400 * 280 = 33.7 -->
-  <rect x="485" y="331" width="80" height="34" rx="4" fill="#8b5cf6" opacity="0.85"/>
-  <text x="525" y="324" text-anchor="middle" font-size="12" font-weight="bold" fill="#8b5cf6">$289</text>
-  <text x="525" y="390" text-anchor="middle" font-size="11" fill="#374151" font-weight="600">Northwest</text>
-  <text x="525" y="404" text-anchor="middle" font-size="9" fill="#9ca3af">US only*</text>
+  <!-- ZenBusiness $0 -> 0px -->
+  <rect x="440" y="390" width="85" height="4" rx="2" fill="#7ac943"/>
+  <text x="482" y="383" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7ac943" font-weight="bold">$0</text>
+  <text x="482" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#222" font-weight="bold">ZenBusiness</text>
+  <text x="482" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#888">Starter</text>
 
-  <!-- ZenBusiness bar: $0 + $199 x 2 = $398. Height: same as LegalZoom -->
-  <rect x="615" y="319" width="80" height="46" rx="4" fill="#f59e0b" opacity="0.85"/>
-  <text x="655" y="312" text-anchor="middle" font-size="12" font-weight="bold" fill="#f59e0b">$398</text>
-  <text x="655" y="390" text-anchor="middle" font-size="11" fill="#374151" font-weight="600">ZenBusiness</text>
-  <text x="655" y="404" text-anchor="middle" font-size="9" fill="#9ca3af">US only*</text>
+  <!-- LegalZoom $249 -> 114px -->
+  <rect x="560" y="276" width="85" height="114" rx="4" fill="#8e44ad"/>
+  <text x="602" y="269" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#8e44ad" font-weight="bold">$249</text>
+  <text x="602" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#222" font-weight="bold">LegalZoom</text>
+  <text x="602" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#888">Pro</text>
 
-  <!-- Footnote -->
-  <text x="70" y="15" font-size="10" fill="#9ca3af">* Not designed for non-US founders (no EIN-without-SSN, no US address bundling)</text>
+  <text x="320" y="66" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#999">Firstbase: Start ($399 one-time) + registered agent ($299/yr). ZenBusiness $0 excludes RA ($199/yr add-on).</text>
 </svg>

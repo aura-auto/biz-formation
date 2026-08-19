@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 420" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="headerGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="700" height="420" rx="12" fill="#f8f9fa"/>
+
+  <!-- Header -->
+  <rect width="700" height="56" rx="12" fill="url(#headerGrad)"/>
+  <rect y="40" width="700" height="16" fill="url(#headerGrad)"/>
+  <text x="350" y="36" text-anchor="middle" fill="white" font-size="18" font-weight="700">ZenBusiness vs doola: Annual Cost Comparison</text>
+  <text x="350" y="78" text-anchor="middle" fill="#666" font-size="11">Verified August 2026. State fees excluded ($50-$500 depending on state).</text>
+
+  <!-- Column headers -->
+  <text x="180" y="108" text-anchor="middle" fill="#1a1a2e" font-size="13" font-weight="700">ZenBusiness</text>
+  <text x="500" y="108" text-anchor="middle" fill="#1a1a2e" font-size="13" font-weight="700">doola Starter</text>
+
+  <!-- Bars -->
+  <!-- ZenBusiness Formation -->
+  <text x="24" y="145" fill="#444" font-size="12">Formation</text>
+  <rect x="180" y="130" width="100" height="28" rx="4" fill="#5c6bc0"/>
+  <text x="235" y="149" text-anchor="middle" fill="white" font-size="12" font-weight="600">$0-$349</text>
+
+  <!-- doola Formation -->
+  <rect x="500" y="130" width="130" height="28" rx="4" fill="#26a69a"/>
+  <text x="565" y="149" text-anchor="middle" fill="white" font-size="12" font-weight="600">$297</text>
+
+  <!-- ZenBusiness Registered Agent -->
+  <text x="24" y="185" fill="#444" font-size="12">Registered Agent</text>
+  <rect x="180" y="170" width="180" height="28" rx="4" fill="#5c6bc0"/>
+  <text x="270" y="189" text-anchor="middle" fill="white" font-size="12" font-weight="600">$199/yr</text>
+
+  <!-- doola Registered Agent -->
+  <rect x="500" y="170" width="60" height="28" rx="4" fill="#26a69a"/>
+  <text x="530" y="189" text-anchor="middle" fill="white" font-size="11" font-weight="600">Incl.</text>
+
+  <!-- ZenBusiness Compliance -->
+  <text x="24" y="225" fill="#444" font-size="12">Compliance</text>
+  <rect x="180" y="210" width="180" height="28" rx="4" fill="#5c6bc0"/>
+  <text x="270" y="229" text-anchor="middle" fill="white" font-size="12" font-weight="600">$199/yr</text>
+
+  <!-- doola Compliance -->
+  <rect x="500" y="210" width="60" height="28" rx="4" fill="#26a69a"/>
+  <text x="530" y="229" text-anchor="middle" fill="white" font-size="11" font-weight="600">Incl.</text>
+
+  <!-- ZenBusiness EIN -->
+  <text x="24" y="265" fill="#444" font-size="12">EIN Registration</text>
+  <rect x="180" y="250" width="90" height="28" rx="4" fill="#5c6bc0"/>
+  <text x="225" y="269" text-anchor="middle" fill="white" font-size="12" font-weight="600">$99</text>
+
+  <!-- doola EIN -->
+  <rect x="500" y="250" width="60" height="28" rx="4" fill="#26a69a"/>
+  <text x="530" y="269" text-anchor="middle" fill="white" font-size="11" font-weight="600">Incl.</text>
+
+  <!-- Divider -->
+  <line x1="40" y1="295" x2="660" y2="295" stroke="#ddd" stroke-width="1"/>
+
+  <!-- Total row -->
+  <text x="24" y="325" fill="#1a1a2e" font-size="14" font-weight="700">Annual Total</text>
+
+  <rect x="180" y="308" width="180" height="32" rx="6" fill="#5c6bc0"/>
+  <text x="270" y="330" text-anchor="middle" fill="white" font-size="14" font-weight="700">$548/yr</text>
+
+  <rect x="500" y="308" width="130" height="32" rx="6" fill="#26a69a"/>
+  <text x="565" y="330" text-anchor="middle" fill="white" font-size="14" font-weight="700">$297/yr</text>
+
+  <!-- Savings callout -->
+  <rect x="180" y="356" width="450" height="44" rx="8" fill="#e8f5e9" stroke="#26a69a" stroke-width="1.5"/>
+  <text x="405" y="377" text-anchor="middle" fill="#1a1a2e" font-size="13">
+    <tspan font-weight="700" fill="#26a69a">$251/yr saved</tspan>
+    <tspan fill="#555"> with doola (includes formation + RA + compliance + EIN)</tspan>
+  </text>
+
+  <!-- Notes -->
+  <text x="350" y="412" text-anchor="middle" fill="#999" font-size="10">ZenBusiness: formation $0-$349 (Starter/Pro/Premium) + RA $199 + Compliance $199 + EIN $99 add-on. doola Starter: $297 bundled.</text>
+</svg>
