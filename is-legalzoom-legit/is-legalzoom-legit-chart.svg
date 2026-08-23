@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 380" font-family="Arial, sans-serif">
+  <rect width="680" height="380" fill="#f8f9fa" rx="8"/>
+  <text x="340" y="28" text-anchor="middle" font-size="15" font-weight="bold" fill="#222">LLC Formation Services: Legitimacy &amp; Value</text>
+  
+  <!-- Legend -->
+  <rect x="80" y="42" width="12" height="12" fill="#2563eb" rx="2"/>
+  <text x="96" y="53" font-size="9" fill="#555">BBB Rating</text>
+  <rect x="200" y="42" width="12" height="12" fill="#059669" rx="2"/>
+  <text x="216" y="53" font-size="9" fill="#555">Trustpilot (out of 5)</text>
+  <rect x="360" y="42" width="12" height="12" fill="#d97706" rx="2"/>
+  <text x="376" y="53" font-size="9" fill="#555">Years in Business</text>
+  <rect x="520" y="42" width="12" height="12" fill="#dc2626" rx="2"/>
+  <text x="536" y="53" font-size="9" fill="#555">First-Year Cost ($)</text>
+
+  <!-- Y axis: 0-50 scale (for Trustpilot out of 5 * 10, Years, and cost / 10) -->
+  <line x1="80" y1="80" x2="650" y2="80" stroke="#e5e7eb" stroke-width="1"/>
+  <line x1="80" y1="150" x2="650" y2="150" stroke="#e5e7eb" stroke-width="1"/>
+  <line x1="80" y1="220" x2="650" y2="220" stroke="#e5e7eb" stroke-width="1"/>
+  <line x1="80" y1="290" x2="650" y2="290" stroke="#e5e7eb" stroke-width="1"/>
+  <text x="75" y="84" text-anchor="end" font-size="9" fill="#999">50</text>
+  <text x="75" y="154" text-anchor="end" font-size="9" fill="#999">35</text>
+  <text x="75" y="224" text-anchor="end" font-size="9" fill="#999">20</text>
+  <text x="75" y="294" text-anchor="end" font-size="9" fill="#999">5</text>
+
+  <!-- LegalZoom -->
+  <g>
+    <!-- BBB A+ (shown as bar height ~35 for rating) -->
+    <rect x="95" y="150" width="22" height="140" fill="#2563eb" rx="3" opacity="0.85"/>
+    <text x="106" y="146" text-anchor="middle" font-size="8" fill="#2563eb" font-weight="bold">A+</text>
+    <!-- Trustpilot 4.3 (scaled: 4.3/5 * 140 = ~120px from 290) -->
+    <rect x="121" y="170" width="22" height="120" fill="#059669" rx="3" opacity="0.85"/>
+    <text x="132" y="166" text-anchor="middle" font-size="8" fill="#059669" font-weight="bold">4.3</text>
+    <!-- Years 25 (scaled: 25/50 * 210 = ~105px from 290) -->
+    <rect x="147" y="185" width="22" height="105" fill="#d97706" rx="3" opacity="0.85"/>
+    <text x="158" y="181" text-anchor="middle" font-size="8" fill="#d97706" font-weight="bold">25+</text>
+    <!-- Cost ~$650 (scaled: 650/100 * 210 = ~136px from 290) -->
+    <rect x="173" y="154" width="22" height="136" fill="#dc2626" rx="3" opacity="0.85"/>
+    <text x="184" y="150" text-anchor="middle" font-size="7" fill="#dc2626" font-weight="bold">$650</text>
+    <text x="140" y="320" text-anchor="middle" font-size="11" fill="#333" font-weight="bold">LegalZoom</text>
+    <text x="140" y="332" text-anchor="middle" font-size="8" fill="#999">SiteJabber: 2.9/5</text>
+  </g>
+
+  <!-- doola -->
+  <g>
+    <rect x="255" y="220" width="22" height="70" fill="#2563eb" rx="3" opacity="0.85"/>
+    <text x="266" y="216" text-anchor="middle" font-size="8" fill="#2563eb" font-weight="bold">A+</text>
+    <!-- Trustpilot 4.8 -->
+    <rect x="281" y="156" width="22" height="134" fill="#059669" rx="3" opacity="0.85"/>
+    <text x="292" y="152" text-anchor="middle" font-size="8" fill="#059669" font-weight="bold">4.8</text>
+    <!-- Years 6 -->
+    <rect x="307" y="266" width="22" height="24" fill="#d97706" rx="3" opacity="0.85"/>
+    <text x="318" y="262" text-anchor="middle" font-size="8" fill="#d97706" font-weight="bold">6</text>
+    <!-- Cost $297 -->
+    <rect x="333" y="229" width="22" height="61" fill="#dc2626" rx="3" opacity="0.85"/>
+    <text x="344" y="225" text-anchor="middle" font-size="7" fill="#dc2626" font-weight="bold">$297</text>
+    <text x="310" y="320" text-anchor="middle" font-size="11" fill="#333" font-weight="bold">doola</text>
+    <text x="310" y="332" text-anchor="middle" font-size="8" fill="#059669" font-weight="bold">Best value</text>
+  </g>
+
+  <!-- Northwest -->
+  <g>
+    <rect x="415" y="220" width="22" height="70" fill="#2563eb" rx="3" opacity="0.85"/>
+    <text x="426" y="216" text-anchor="middle" font-size="8" fill="#2563eb" font-weight="bold">A+</text>
+    <!-- Trustpilot 4.7 -->
+    <rect x="441" y="160" width="22" height="130" fill="#059669" rx="3" opacity="0.85"/>
+    <text x="452" y="156" text-anchor="middle" font-size="8" fill="#059669" font-weight="bold">4.7</text>
+    <!-- Years 20+ -->
+    <rect x="467" y="206" width="22" height="84" fill="#d97706" rx="3" opacity="0.85"/>
+    <text x="478" y="202" text-anchor="middle" font-size="8" fill="#d97706" font-weight="bold">20+</text>
+    <!-- Cost ~$228 -->
+    <rect x="493" y="242" width="22" height="48" fill="#dc2626" rx="3" opacity="0.85"/>
+    <text x="504" y="238" text-anchor="middle" font-size="7" fill="#dc2626" font-weight="bold">$228</text>
+    <text x="470" y="320" text-anchor="middle" font-size="11" fill="#333" font-weight="bold">Northwest</text>
+    <text x="470" y="332" text-anchor="middle" font-size="8" fill="#999">Lowest upfront</text>
+  </g>
+
+  <!-- ZenBusiness -->
+  <g>
+    <rect x="575" y="220" width="22" height="70" fill="#2563eb" rx="3" opacity="0.85"/>
+    <text x="586" y="216" text-anchor="middle" font-size="8" fill="#2563eb" font-weight="bold">A+</text>
+    <!-- Trustpilot 4.7 -->
+    <rect x="601" y="160" width="22" height="130" fill="#059669" rx="3" opacity="0.85"/>
+    <text x="612" y="156" text-anchor="middle" font-size="8" fill="#059669" font-weight="bold">4.7</text>
+    <!-- Years 11 -->
+    <rect x="627" y="195" width="22" height="95" fill="#d97706" rx="3" opacity="0.85"/>
+    <text x="638" y="191" text-anchor="middle" font-size="8" fill="#d97706" font-weight="bold">11</text>
+    <!-- Cost ~$300 -->
+    <rect x="653" y="229" width="22" height="61" fill="#dc2626" rx="3" opacity="0.85"/>
+    <text x="664" y="225" text-anchor="middle" font-size="7" fill="#dc2626" font-weight="bold">$300</text>
+    <text x="630" y="320" text-anchor="middle" font-size="11" fill="#333" font-weight="bold">ZenBusiness</text>
+  </g>
+
+  <text x="340" y="355" text-anchor="middle" font-size="9" fill="#aaa">Source: BBB, Trustpilot, SiteJabber, company sites. Cost = estimated first-year total incl. state fees. All four hold A+ BBB rating.</text>
+  <text x="340" y="370" text-anchor="middle" font-size="9" fill="#aaa">LegalZoom cost estimate includes registered agent add-on ($249/yr). doola includes registered agent, EIN, and US address in Starter plan.</text>
+</svg>

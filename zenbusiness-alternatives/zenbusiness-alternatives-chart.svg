@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="system-ui, -apple-system, sans-serif">
+  <rect width="720" height="420" fill="#fff" rx="8"/>
+  <text x="360" y="35" text-anchor="middle" font-size="16" font-weight="700" fill="#1a1a1a">First-Year Total Cost Comparison (USD)</text>
+  <text x="360" y="55" text-anchor="middle" font-size="12" fill="#666">Service fee + registered agent (1 year). State fees vary and are excluded.</text>
+
+  <!-- Y axis -->
+  <line x1="140" y1="75" x2="140" y2="370" stroke="#ccc" stroke-width="1"/>
+  <!-- X axis -->
+  <line x1="140" y1="370" x2="700" y2="370" stroke="#ccc" stroke-width="1"/>
+
+  <!-- Grid lines -->
+  <line x1="140" y1="130" x2="700" y2="130" stroke="#eee" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="140" y1="185" x2="700" y2="185" stroke="#eee" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="140" y1="240" x2="700" y2="240" stroke="#eee" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="140" y1="295" x2="700" y2="295" stroke="#eee" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="140" y1="350" x2="700" y2="350" stroke="#eee" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Y labels -->
+  <text x="130" y="133" text-anchor="end" font-size="11" fill="#888">$2,000</text>
+  <text x="130" y="188" text-anchor="end" font-size="11" fill="#888">$1,500</text>
+  <text x="130" y="243" text-anchor="end" font-size="11" fill="#888">$1,000</text>
+  <text x="130" y="298" text-anchor="end" font-size="11" fill="#888">$500</text>
+  <text x="130" y="353" text-anchor="end" font-size="11" fill="#888">$0</text>
+
+  <!-- Bars -->
+  <!-- ZenBusiness: $0 service + $199 RA = $199 -->
+  <rect x="165" y="349" width="75" height="21" fill="#64748b" rx="3"/>
+  <text x="202" y="344" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">$199</text>
+  <text x="202" y="395" text-anchor="middle" font-size="11" fill="#444">ZenBusiness</text>
+  <text x="202" y="410" text-anchor="middle" font-size="9" fill="#888">Starter + RA</text>
+
+  <!-- Bizee: $0 service + $0 RA yr1 = $0 -->
+  <rect x="260" y="370" width="75" height="0" fill="#22c55e" rx="3"/>
+  <text x="297" y="354" text-anchor="middle" font-size="11" font-weight="600" fill="#22c55e">$0*</text>
+  <text x="297" y="395" text-anchor="middle" font-size="11" fill="#444">Bizee</text>
+  <text x="297" y="410" text-anchor="middle" font-size="9" fill="#888">Silver + free RA</text>
+
+  <!-- Northwest: $39 + $0 RA yr1 = $39 -->
+  <rect x="355" y="366" width="75" height="4" fill="#3b82f6" rx="3"/>
+  <text x="392" y="360" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">$39</text>
+  <text x="392" y="395" text-anchor="middle" font-size="11" fill="#444">Northwest</text>
+  <text x="392" y="410" text-anchor="middle" font-size="9" fill="#888">+ free RA yr 1</text>
+
+  <!-- doola: $297 (includes EIN, address) -->
+  <rect x="450" y="338" width="75" height="32" fill="#6366f1" rx="3"/>
+  <text x="487" y="333" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">$297</text>
+  <text x="487" y="395" text-anchor="middle" font-size="11" fill="#444">doola</text>
+  <text x="487" y="410" text-anchor="middle" font-size="9" fill="#888">All-in-one starter</text>
+
+  <!-- LegalZoom: ~$0 + $249 RA est = $249 -->
+  <rect x="545" y="343" width="75" height="27" fill="#8b5cf6" rx="3"/>
+  <text x="582" y="338" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">~$249</text>
+  <text x="582" y="395" text-anchor="middle" font-size="11" fill="#444">LegalZoom</text>
+  <text x="582" y="410" text-anchor="middle" font-size="9" fill="#888">Basic + RA est.</text>
+
+  <!-- Harbor: custom - show as $0 with note -->
+  <rect x="640" y="362" width="45" height="8" fill="#f59e0b" rx="3"/>
+  <text x="662" y="356" text-anchor="middle" font-size="11" font-weight="600" fill="#1a1a1a">Custom</text>
+  <text x="662" y="395" text-anchor="middle" font-size="11" fill="#444">Harbor</text>
+  <text x="662" y="410" text-anchor="middle" font-size="9" fill="#888">Quote-based</text>
+
+  <!-- Footnote -->
+  <text x="360" y="382" text-anchor="middle" font-size="9" fill="#999">*Bizee Silver plan has $0 service fee. State filing fee excluded. Prices as of Aug 2026.</text>
+</svg>
