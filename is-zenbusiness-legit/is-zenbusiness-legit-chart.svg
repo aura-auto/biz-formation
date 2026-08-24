@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" font-family="system-ui, sans-serif">
+  <style>
+    .bar { rx: 4; }
+    .label { font-size: 13px; fill: #333; }
+    .val { font-size: 12px; fill: #fff; font-weight: 600; }
+    .title { font-size: 15px; font-weight: 700; fill: #222; }
+    .subtitle { font-size: 11px; fill: #666; }
+    .axis { stroke: #ccc; stroke-width: 1; }
+    .grid { stroke: #eee; stroke-width: 1; stroke-dasharray: 4,4; }
+  </style>
+
+  <!-- Background -->
+  <rect width="600" height="340" fill="#fafafa" rx="8"/>
+
+  <!-- Title -->
+  <text x="300" y="30" text-anchor="middle" class="title">LLC Formation: First-Year Cost Comparison</text>
+  <text x="300" y="48" text-anchor="middle" class="subtitle">ZenBusiness vs doola -- annual pricing, state fees excluded</text>
+
+  <!-- Grid lines -->
+  <line x1="100" y1="80" x2="100" y2="290" class="axis"/>
+  <line x1="100" y1="290" x2="560" y2="290" class="axis"/>
+  <line x1="200" y1="80" x2="200" y2="290" class="grid"/>
+  <line x1="300" y1="80" x2="300" y2="290" class="grid"/>
+  <line x1="400" y1="80" x2="400" y2="290" class="grid"/>
+  <line x1="500" y1="80" x2="500" y2="290" class="grid"/>
+
+  <!-- Axis labels -->
+  <text x="100" y="308" text-anchor="middle" class="label" font-size="11">$0</text>
+  <text x="200" y="308" text-anchor="middle" class="label" font-size="11">$100</text>
+  <text x="300" y="308" text-anchor="middle" class="label" font-size="11">$200</text>
+  <text x="400" y="308" text-anchor="middle" class="label" font-size="11">$300</text>
+  <text x="500" y="308" text-anchor="middle" class="label" font-size="11">$400</text>
+
+  <!-- ZenBusiness Starter - $0 -->
+  <text x="95" y="100" text-anchor="end" class="label">Starter</text>
+  <rect x="100" y="88" width="4" height="22" fill="#94a3b8" class="bar"/>
+  <text x="112" y="104" class="val" fill="#333">$0*</text>
+
+  <!-- ZenBusiness Pro - $199 -->
+  <text x="95" y="140" text-anchor="end" class="label">Pro</text>
+  <rect x="100" y="128" width="199" height="22" fill="#3b82f6" class="bar"/>
+  <text x="303" y="144" class="val" fill="#333">$199/yr</text>
+
+  <!-- ZenBusiness Premium - $299 -->
+  <text x="95" y="180" text-anchor="end" class="label">Premium</text>
+  <rect x="100" y="168" width="299" height="22" fill="#2563eb" class="bar"/>
+  <text x="403" y="184" class="val" fill="#333">$299/yr</text>
+
+  <!-- ZenBusiness add-ons total - ~$497 ($199 reg agent + $199 compliance + $99 EIN) -->
+  <text x="95" y="220" text-anchor="end" class="label" font-size="11">Pro + add-ons</text>
+  <rect x="100" y="208" width="397" height="22" fill="#1d4ed8" class="bar"/>
+  <text x="501" y="224" class="val" fill="#333">~$497+</text>
+
+  <!-- doola Starter - $297 -->
+  <text x="95" y="260" text-anchor="end" class="label" fill="#16a34a" font-weight="600">doola Starter</text>
+  <rect x="100" y="248" width="297" height="22" fill="#16a34a" class="bar"/>
+  <text x="401" y="264" class="val" fill="#fff">$297/yr</text>
+
+  <!-- Legend -->
+  <rect x="100" y="322" width="10" height="10" fill="#3b82f6" rx="2"/>
+  <text x="116" y="332" class="subtitle">ZenBusiness (blue)</text>
+  <rect x="280" y="322" width="10" height="10" fill="#16a34a" rx="2"/>
+  <text x="296" y="332" class="subtitle">doola (green)</text>
+</svg>
