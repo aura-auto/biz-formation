@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 320" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="50%" stop-color="#eab308"/>
+      <stop offset="100%" stop-color="#ef4444"/>
+    </linearGradient>
+  </defs>
+  <rect width="700" height="320" fill="#f8fafc" rx="8"/>
+  <text x="350" y="35" text-anchor="middle" font-size="18" font-weight="bold" fill="#1e293b">Montana LLC Annual Report Timeline</text>
+
+  <!-- Main timeline bar -->
+  <rect x="40" y="100" width="620" height="8" rx="4" fill="url(#g1)"/>
+
+  <!-- Jan 1 marker -->
+  <circle cx="40" cy="104" r="10" fill="#22c55e" stroke="#fff" stroke-width="2"/>
+  <text x="40" y="80" text-anchor="middle" font-size="12" fill="#475569" font-weight="bold">Jan 1</text>
+  <text x="40" y="140" text-anchor="middle" font-size="11" fill="#64748b">Filing window opens</text>
+  <text x="40" y="155" text-anchor="middle" font-size="11" fill="#22c55e" font-weight="bold">$0 on-time fee</text>
+
+  <!-- Apr 15 marker -->
+  <circle cx="290" cy="104" r="10" fill="#eab308" stroke="#fff" stroke-width="2"/>
+  <text x="290" y="80" text-anchor="middle" font-size="12" fill="#475569" font-weight="bold">Apr 15</text>
+  <text x="290" y="140" text-anchor="middle" font-size="11" fill="#64748b">DEADLINE</text>
+  <text x="290" y="155" text-anchor="middle" font-size="11" fill="#eab308" font-weight="bold">Standard fee: $20</text>
+
+  <!-- Late penalty zone -->
+  <rect x="295" y="96" width="365" height="16" rx="4" fill="#fef2f2" opacity="0.8"/>
+  <text x="340" y="175" font-size="10" fill="#dc2626">Late penalty zone (+$15 = $35 total)</text>
+
+  <!-- Sep 1 warning -->
+  <circle cx="500" cy="104" r="8" fill="#f97316" stroke="#fff" stroke-width="2"/>
+  <text x="500" y="80" text-anchor="middle" font-size="12" fill="#475569" font-weight="bold">~Sep 1</text>
+  <text x="500" y="140" text-anchor="middle" font-size="11" fill="#64748b">Warning notice</text>
+  <text x="500" y="155" text-anchor="middle" font-size="11" fill="#64748b">mailed by SOS</text>
+
+  <!-- Dec 1 dissolution -->
+  <circle cx="660" cy="104" r="10" fill="#ef4444" stroke="#fff" stroke-width="2"/>
+  <text x="660" y="80" text-anchor="middle" font-size="12" fill="#475569" font-weight="bold">~Dec 1</text>
+  <text x="660" y="140" text-anchor="middle" font-size="11" fill="#ef4444" font-weight="bold">Admin dissolution</text>
+
+  <!-- Cost table -->
+  <rect x="40" y="200" width="620" height="100" rx="6" fill="#fff" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="350" y="225" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e293b">Fee Summary (as of August 2026)</text>
+  <line x1="40" y1="235" x2="660" y2="235" stroke="#e2e8f0"/>
+
+  <text x="60" y="260" font-size="12" fill="#475569">On-time (by Apr 15):</text>
+  <text x="250" y="260" font-size="12" font-weight="bold" fill="#22c55e">$0</text>
+  <text x="300" y="260" font-size="11" fill="#94a3b8">(fee waived through 2027)</text>
+
+  <text x="60" y="280" font-size="12" fill="#475569">Standard fee (on the books):</text>
+  <text x="250" y="280" font-size="12" font-weight="bold" fill="#1e293b">$20</text>
+
+  <text x="60" y="300" font-size="12" fill="#475569">Late filing (after Apr 15):</text>
+  <text x="250" y="300" font-size="12" font-weight="bold" fill="#ef4444">$35</text>
+  <text x="300" y="300" font-size="11" fill="#94a3b8">($20 + $15 penalty)</text>
+
+  <!-- Sources -->
+  <text x="350" y="318" text-anchor="middle" font-size="9" fill="#94a3b8">Source: Montana Secretary of State (biz.sosmt.gov), Mont. Code Ann. 35-8-208</text>
+</svg>

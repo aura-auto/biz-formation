@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" role="img" aria-label="Bar chart comparing Montana registered agent annual costs">
+  <title>Montana Registered Agent Annual Cost Comparison</title>
+  <style>
+    text { font-family: system-ui, -apple-system, sans-serif; }
+    .label { font-size: 13px; fill: #334155; }
+    .value { font-size: 14px; font-weight: 700; fill: #0f172a; }
+    .title { font-size: 16px; font-weight: 700; fill: #0f172a; }
+    .subtitle { font-size: 12px; fill: #64748b; }
+    .axis { stroke: #cbd5e1; stroke-width: 1; }
+    .grid { stroke: #e2e8f0; stroke-width: 0.5; stroke-dasharray: 4,4; }
+    .note { font-size: 11px; fill: #94a3b8; }
+  </style>
+
+  <!-- Background -->
+  <rect width="680" height="320" fill="#f8fafc" rx="8"/>
+
+  <!-- Title -->
+  <text x="340" y="30" text-anchor="middle" class="title">Montana Registered Agent: Annual Cost</text>
+  <text x="340" y="48" text-anchor="middle" class="subtitle">Prices as of August 2026 (provider official sites)</text>
+
+  <!-- Y-axis -->
+  <line x1="120" y1="65" x2="120" y2="270" class="axis"/>
+
+  <!-- Grid lines and Y labels -->
+  <line x1="120" y1="270" x2="650" y2="270" class="axis"/>
+  <text x="110" y="274" text-anchor="end" class="label">$0</text>
+
+  <line x1="120" y1="217" x2="650" y2="217" class="grid"/>
+  <text x="110" y="221" text-anchor="end" class="label">$75</text>
+
+  <line x1="120" y1="165" x2="650" y2="165" class="grid"/>
+  <text x="110" y="169" text-anchor="end" class="label">$150</text>
+
+  <line x1="120" y1="112" x2="650" y2="112" class="grid"/>
+  <text x="110" y="116" text-anchor="end" class="label">$225</text>
+
+  <line x1="120" y1="65" x2="650" y2="65" class="grid"/>
+  <text x="110" y="69" text-anchor="end" class="label">$300</text>
+
+  <!-- Bars: scale $0=270, $300=65. 1$ = 0.683px from bottom -->
+  <!-- DIY: $0 -->
+  <rect x="140" y="265" width="80" height="5" fill="#94a3b8" rx="3"/>
+  <text x="180" y="286" text-anchor="middle" class="label">DIY</text>
+  <text x="180" y="261" text-anchor="middle" class="value">$0</text>
+
+  <!-- Northwest: $125 -->
+  <rect x="240" y="185" width="80" height="85" fill="#2563eb" rx="3"/>
+  <text x="280" y="286" text-anchor="middle" class="label">Northwest</text>
+  <text x="280" y="180" text-anchor="middle" class="value">$125</text>
+
+  <!-- Harbor: $149 -->
+  <rect x="340" y="169" width="80" height="101" fill="#7c3aed" rx="3"/>
+  <text x="380" y="286" text-anchor="middle" class="label">Harbor</text>
+  <text x="380" y="164" text-anchor="middle" class="value">$149</text>
+
+  <!-- ZenBusiness: $199 -->
+  <rect x="440" y="135" width="80" height="135" fill="#059669" rx="3"/>
+  <text x="480" y="286" text-anchor="middle" class="label">ZenBusiness</text>
+  <text x="480" y="130" text-anchor="middle" class="value">$199</text>
+
+  <!-- doola: $297 -->
+  <rect x="540" y="67" width="80" height="203" fill="#ea580c" rx="3"/>
+  <text x="580" y="286" text-anchor="middle" class="label">doola</text>
+  <text x="580" y="62" text-anchor="middle" class="value">$297</text>
+
+  <!-- Note -->
+  <text x="340" y="312" text-anchor="middle" class="note">doola price is Starter plan ($297/yr) which bundles formation + RA + EIN. Bizee: free RA first year with formation, $149/yr renewal (not shown).</text>
+</svg>
