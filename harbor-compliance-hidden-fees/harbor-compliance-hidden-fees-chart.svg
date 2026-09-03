@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" role="img" aria-label="Harbor versus doola first year cost comparison">
+<rect width="640" height="360" fill="#ffffff"/>
+<text x="32" y="36" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#111111">First-year cost: Harbor vs doola (excl. state fees)</text>
+<text x="32" y="60" font-family="Arial,sans-serif" font-size="13" fill="#555555">Harbor: official $99 intro, $149 renewal. doola: official plan prices.</text>
+<g font-family="Arial,sans-serif">
+<text x="32" y="110" font-size="14" fill="#111111">Harbor agent yr 1: $99</text>
+<rect x="280" y="92" width="99" height="24" fill="#1f6feb"/>
+<text x="32" y="150" font-size="14" fill="#111111">Harbor agent renewal: $149</text>
+<rect x="280" y="132" width="149" height="24" fill="#1f6feb"/>
+<text x="32" y="190" font-size="14" fill="#111111">doola Starter: $297/yr</text>
+<rect x="280" y="172" width="297" height="24" fill="#0a7a42"/>
+<text x="32" y="230" font-size="14" fill="#111111">Harbor add-ons: custom quote</text>
+<rect x="280" y="212" width="180" height="24" fill="#999999"/>
+<text x="286" y="229" font-size="12" fill="#ffffff">quote + state fees</text>
+<text x="32" y="280" font-size="13" fill="#555555">Blue = Harbor registered agent. Green = doola bundle (formation + EIN + address).</text>
+<text x="32" y="302" font-size="13" fill="#555555">Gray = Harbor annual report / qualification: no flat price published.</text>
+<text x="32" y="330" font-size="12" fill="#777777">Sources: harborcompliance.com, doola.com/pricing. Sept 2026.</text>
+</g>
+</svg>
